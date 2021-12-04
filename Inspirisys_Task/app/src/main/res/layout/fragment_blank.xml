@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello_blank_fragment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_retrofit_loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:text="Image Loader Using Retrofit" />
+
+        <ImageView
+            android:id="@+id/img_retro_loader"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_average"
+            android:layout_marginTop="@dimen/fab_margin" />
+
+        <Button
+            android:id="@+id/btn_http_loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:text="Image Loader Using HTTPClient" />
+
+        <ImageView
+            android:id="@+id/img_http_loader"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_average"
+            android:layout_marginTop="@dimen/fab_margin" />
+    </LinearLayout>
+
+</FrameLayout>
